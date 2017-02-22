@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'CacheJsonSwift' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CacheJsonSwift
+pod 'AltHanekeSwift', '~> 0.15.0'
+  target 'CacheJsonSwiftTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CacheJsonSwiftUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
