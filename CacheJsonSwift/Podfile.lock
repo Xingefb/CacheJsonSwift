@@ -1,12 +1,15 @@
 PODS:
+  - Alamofire (4.3.0)
   - AltHanekeSwift (0.15.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.3.0)
   - AltHanekeSwift (~> 0.15.0)
 
 SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
   AltHanekeSwift: 9675af55eff3f9455e01a3ece5799497a3148548
 
-PODFILE CHECKSUM: f0528f246a840e4602793feaeb41e2bccddf712f
+PODFILE CHECKSUM: 9a2db2085d8c589de59c493771d49ff3477e3b86
 
 COCOAPODS: 1.2.0

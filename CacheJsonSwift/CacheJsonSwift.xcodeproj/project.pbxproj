@@ -15,6 +15,7 @@
 		40381B211E5D3C4C00137701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40381B1F1E5D3C4C00137701 /* LaunchScreen.storyboard */; };
 		40381B2C1E5D3C4C00137701 /* CacheJsonSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381B2B1E5D3C4C00137701 /* CacheJsonSwiftTests.swift */; };
 		40381B371E5D3C4C00137701 /* CacheJsonSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40381B361E5D3C4C00137701 /* CacheJsonSwiftUITests.swift */; };
+		4083BF0F1E5D5D5F004819FF /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083BF0E1E5D5D5F004819FF /* TestModel.swift */; };
 		CBBE7B00041CD5E2711D7DE7 /* Pods_CacheJsonSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B7370785EF3B1CA2DD7C79 /* Pods_CacheJsonSwiftUITests.framework */; };
 		E4C64D3F94FEA07DD682DC0A /* Pods_CacheJsonSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9859B5A4F43E524480D37BF /* Pods_CacheJsonSwift.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		40381B321E5D3C4C00137701 /* CacheJsonSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CacheJsonSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40381B361E5D3C4C00137701 /* CacheJsonSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheJsonSwiftUITests.swift; sourceTree = "<group>"; };
 		40381B381E5D3C4C00137701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4083BF0E1E5D5D5F004819FF /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		738419D43CFDC9974840ED68 /* Pods-CacheJsonSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CacheJsonSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CacheJsonSwiftTests/Pods-CacheJsonSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7FB6210416B0E892937BC868 /* Pods-CacheJsonSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CacheJsonSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CacheJsonSwiftUITests/Pods-CacheJsonSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		85DAF91683E468027596CE13 /* Pods-CacheJsonSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CacheJsonSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CacheJsonSwiftTests/Pods-CacheJsonSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				40381B1D1E5D3C4C00137701 /* Assets.xcassets */,
 				40381B1F1E5D3C4C00137701 /* LaunchScreen.storyboard */,
 				40381B221E5D3C4C00137701 /* Info.plist */,
+				4083BF0E1E5D5D5F004819FF /* TestModel.swift */,
 			);
 			path = CacheJsonSwift;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4083BF0F1E5D5D5F004819FF /* TestModel.swift in Sources */,
 				40381B191E5D3C4C00137701 /* ViewController.swift in Sources */,
 				40381B171E5D3C4C00137701 /* AppDelegate.swift in Sources */,
 			);
@@ -698,6 +702,7 @@
 				40381B3D1E5D3C4C00137701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40381B3E1E5D3C4C00137701 /* Build configuration list for PBXNativeTarget "CacheJsonSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +711,7 @@
 				40381B401E5D3C4C00137701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40381B411E5D3C4C00137701 /* Build configuration list for PBXNativeTarget "CacheJsonSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +720,7 @@
 				40381B431E5D3C4C00137701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
